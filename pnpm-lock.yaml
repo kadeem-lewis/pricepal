@@ -4,6 +4,9 @@ settings:
   autoInstallPeers: true
   excludeLinksFromLockfile: false
 
+overrides:
+  babel-plugin-react-compiler: 0.0.0-experimental-734b737-20241003
+
 importers:
 
   .:
@@ -1837,8 +1840,8 @@ packages:
     peerDependencies:
       '@babel/core': ^7.4.0 || ^8.0.0-0 <8.0.0
 
-  babel-plugin-react-compiler@0.0.0-experimental-7779988-20241007:
-    resolution: {integrity: sha512-0rt6obfVntdm8qnYiGDi6DAnPAQnNAFm96iZCAy4ep5424PxntOW6B7em8TssOl6qr/+uldVaaSkMpOPqIfkyQ==}
+  babel-plugin-react-compiler@0.0.0-experimental-734b737-20241003:
+    resolution: {integrity: sha512-jdcHsQwYAPuB2u/wpyCXCMI2B9n4weLAx8csvjNwYBw9drXYv4GmoxMyboigR9NJqDdcpIgjCBvt9qnIZM7AhA==}
 
   babel-plugin-react-native-web@0.19.12:
     resolution: {integrity: sha512-eYZ4+P6jNcB37lObWIg0pUbi7+3PKoU1Oie2j0C8UF3cXyXoR74tO2NBjI/FORb2LJyItJZEAmjU5pSaJYEL1w==}
@@ -7317,7 +7320,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  babel-plugin-react-compiler@0.0.0-experimental-7779988-20241007:
+  babel-plugin-react-compiler@0.0.0-experimental-734b737-20241003:
     dependencies:
       '@babel/generator': 7.2.0
       '@babel/types': 7.25.7
@@ -7344,7 +7347,7 @@ snapshots:
       '@babel/preset-react': 7.25.7(@babel/core@7.25.7)
       '@babel/preset-typescript': 7.25.7(@babel/core@7.25.7)
       '@react-native/babel-preset': 0.74.87(@babel/core@7.25.7)(@babel/preset-env@7.25.7(@babel/core@7.25.7))
-      babel-plugin-react-compiler: 0.0.0-experimental-7779988-20241007
+      babel-plugin-react-compiler: 0.0.0-experimental-734b737-20241003
       babel-plugin-react-native-web: 0.19.12
       react-refresh: 0.14.2
     transitivePeerDependencies:
